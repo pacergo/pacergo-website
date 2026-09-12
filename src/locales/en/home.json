@@ -1,0 +1,166 @@
+{
+  "hero": {
+    "eyebrow": "AI Training Plans × Real Workout Partners",
+    "headline": "AI plans. We train together.",
+    "sub": "From personalized training plans and partner matching to real workout execution, PacerGo helps every session feel clearer and easier to sustain.",
+    "cta_primary": "Start Free",
+    "cta_secondary": "See How It Works",
+    "trust": "Free to join. Explore first. Upgrade AI when you need it."
+  },
+  "activities_label": "Supported activities",
+  "activities_more": "& more",
+  "activities": [
+    "Gym",
+    "Running",
+    "Climbing",
+    "Yoga",
+    "Boxing",
+    "Hiking",
+    "Swimming",
+    "Cycling",
+    "Pilates",
+    "Tennis",
+    "Basketball",
+    "CrossFit"
+  ],
+  "steps": {
+    "eyebrow": "How It Works",
+    "title_1": "Plan, support, train, ",
+    "title_highlight": "review.",
+    "intro": "PacerGo connects AI planning with optional human support, then keeps the training loop moving in the Web App.",
+    "items": [
+      {
+        "no": "01",
+        "title": "AI plan",
+        "body": "Set a goal and create a practical training direction in the Web App."
+      },
+      {
+        "no": "02",
+        "title": "Human support",
+        "body": "Find a workout partner when accountability or in-person support would help."
+      },
+      {
+        "no": "03",
+        "title": "Train",
+        "body": "Use the plan, meet when it helps, and complete the session at your pace."
+      },
+      {
+        "no": "04",
+        "title": "Review progress",
+        "body": "Record training activity and review progress so the next session is clearer."
+      }
+    ]
+  },
+  "ai_coach": {
+    "eyebrow": "AI Personal Coach",
+    "title_1": "Training structure before ",
+    "title_highlight": "you start.",
+    "intro": "PacerGo helps turn your goal and training conditions into a structured workout menu, so you know what to do next.",
+    "items": [
+      {
+        "title": "Personalized planning",
+        "body": "Choose your goal, age group, level, frequency, and training place."
+      },
+      {
+        "title": "Workout structure",
+        "body": "Build a session format with warm-up, main training, and cool-down."
+      },
+      {
+        "title": "Next-step guidance",
+        "body": "Use the plan as a starting point before training alone or with a partner."
+      }
+    ],
+    "visual_label": "Web App screen",
+    "visual_title": "AI Training Menu",
+    "visual_points": ["Goal", "Level", "Frequency", "Training place"],
+    "visual_note": "Approved AI plan screenshots will be placed here when available."
+  },
+  "tiers": {
+    "eyebrow": "Workout Partner",
+    "title_1": "Real people help you ",
+    "title_highlight": "follow through.",
+    "intro": "When you want accountability, find workout support that fits the plan, the activity, and the pace you want.",
+    "cta": "Find a Partner",
+    "rate_note": "Each partner sets their own rate",
+    "items": [
+      {
+        "code": "A",
+        "name": "Top Tier",
+        "blurb": "Partners at this level submit approved proof for the selected activity before listing at this level.",
+        "features": ["Credential review for Tier A", "Structured support", "Goal-based sessions"]
+      },
+      {
+        "code": "B",
+        "name": "Senior Pro",
+        "blurb": "Experienced workout partners can support users with practical training experience after the required review.",
+        "features": ["Real training experience", "Hands-on support", "Peer accountability"]
+      },
+      {
+        "code": "C",
+        "name": "Buddy",
+        "blurb": "Workout partners who want to show up and train together, free or at a small fee when they choose.",
+        "features": ["Casual accountability", "Flexible pace", "Workout partner support"]
+      }
+    ]
+  },
+  "progress": {
+    "eyebrow": "Training & Progress",
+    "title_1": "Complete the session, then ",
+    "title_highlight": "keep track.",
+    "intro": "PacerGo connects planning with execution: view your plan, complete workouts, record activity, and review progress.",
+    "items": [
+      {
+        "title": "View the plan",
+        "body": "Keep the training direction visible before the session starts."
+      },
+      {
+        "title": "Complete workouts",
+        "body": "Train alone or with support, depending on what helps you follow through."
+      },
+      {
+        "title": "Record activity",
+        "body": "Use the Web App to keep track of completed training."
+      },
+      {
+        "title": "Review progress",
+        "body": "Check weekly progress and use it to shape the next session."
+      }
+    ],
+    "visual_label": "Web App screen",
+    "visual_title": "Training progress",
+    "visual_note": "Approved training and progress screenshots will be placed here when available."
+  },
+  "safety": {
+    "eyebrow": "Trust & safety",
+    "title_1": "Support for digital use",
+    "title_2": "and ",
+    "title_highlight": "meetups.",
+    "intro": "PacerGo combines profile information, reporting, blocking, and in-person safety guidance. These tools support safer decisions, but they are not a guarantee.",
+    "items": [
+      {
+        "title": "Tier A verification",
+        "body": "Tier A partners submit credentials for review before verified status appears."
+      },
+      {
+        "title": "Report & block",
+        "body": "Report concerns for moderation and block users you do not want to see or contact."
+      },
+      {
+        "title": "Share your session",
+        "body": "Share who, where, and when with a trusted contact before heading out."
+      },
+      {
+        "title": "Meet in public",
+        "body": "First-meet guidance and public-venue suggestions help early sessions stay lower-risk."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Start in the Web App",
+    "title_1": "Plan with AI. ",
+    "title_highlight": "Train with people.",
+    "sub": "AI helps you plan, and real people help you follow through.",
+    "submit": "Start Free",
+    "launching": "Available in Taiwan · 繁體中文 & English"
+  }
+}

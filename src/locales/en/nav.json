@@ -1,0 +1,14 @@
+{
+  "product": "Product",
+  "how": "How It Works",
+  "safety": "Safety",
+  "become_partner": "Become a Partner",
+  "open_menu": "Open navigation menu",
+  "close_menu": "Close navigation menu",
+  "start_free": "Start Free",
+  "menu": {
+    "ai_coach": "AI Personal Coach",
+    "find_partner": "Find a Partner",
+    "progress": "Training & Progress"
+  }
+}

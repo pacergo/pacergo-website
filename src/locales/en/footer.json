@@ -1,0 +1,30 @@
+{
+  "tagline": "AI training plans and real workout partner support, built for training that is easier to start and sustain.",
+  "columns": {
+    "product": {
+      "heading": "Product",
+      "links": [
+        { "label": "Start Free", "href": "https://app.pacergo.app/sign-in?utm_source=website&utm_medium=footer&utm_campaign=mvp_launch" },
+        { "label": "How It Works", "href": "/#how-it-works" },
+        { "label": "AI Personal Coach", "href": "/#ai-coach" },
+        { "label": "Find a Partner", "href": "/find" },
+        { "label": "Training & Progress", "href": "/#progress" },
+        { "label": "Safety", "href": "/#safety" }
+      ]
+    },
+    "partners": {
+      "heading": "Partners",
+      "links": [
+        { "label": "Become a Partner", "href": "/earn" }
+      ]
+    },
+    "support": {
+      "heading": "Support",
+      "links": [
+        { "label": "Contact", "href": "/contact" }
+      ]
+    }
+  },
+  "rights": "© {{year}} PacerGo. Made in Taiwan.",
+  "motto": "AI plans · Real people · Progress you can track"
+}

@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "title": "Workout Partner Support",
+    "description": "Find workout partner support that helps you follow through on your PacerGo training plan."
+  },
+  "hero": {
+    "eyebrow": "Workout Partner",
+    "title_1": "AI gives direction.",
+    "title_2": "People help you ",
+    "title_highlight": "follow through.",
+    "sub": "Start with a PacerGo training plan, then find workout partner support when accountability, practical help, or training together would make the session easier to complete.",
+    "cta_primary": "Start Free",
+    "cta_secondary": "See How It Works"
+  },
+  "fit": {
+    "eyebrow": "How partners fit",
+    "title_1": "AI plans the direction. ",
+    "title_highlight": "People support the session.",
+    "intro": "A workout partner is optional support inside the broader PacerGo loop. AI helps with planning; people help with follow-through.",
+    "ai_link": "See AI planning on the homepage",
+    "items": [
+      {
+        "no": "01",
+        "title": "Get direction",
+        "body": "Use AI planning to create a training direction before you start."
+      },
+      {
+        "no": "02",
+        "title": "Find support",
+        "body": "Choose workout partner support only when it helps your goal or schedule."
+      },
+      {
+        "no": "03",
+        "title": "Train together",
+        "body": "Meet in person for accountability and practical support during the workout."
+      },
+      {
+        "no": "04",
+        "title": "Keep going",
+        "body": "Record training activity and continue reviewing progress in PacerGo."
+      }
+    ]
+  },
+  "discovery": {
+    "eyebrow": "Partner discovery",
+    "title_1": "Find support that fits ",
+    "title_highlight": "the plan.",
+    "intro": "Partner discovery should help you compare support clearly without mixing level badges, service tags, or verified credentials.",
+    "items": [
+      {
+        "title": "Browse workout partners",
+        "body": "Review available partner profiles and supported training interests in the Web App."
+      },
+      {
+        "title": "Keep credentials separate",
+        "body": "Partner level, service tags, pricing, availability, and verified credentials are separate pieces of information."
+      },
+      {
+        "title": "Match support to context",
+        "body": "Choose structured help, experienced peer support, or someone to train with based on what the session needs."
+      }
+    ]
+  },
+  "expect": {
+    "eyebrow": "What to expect",
+    "title_1": "Support for showing up, ",
+    "title_highlight": "not a guarantee.",
+    "intro": "PacerGo helps make the next training step clearer while keeping the choice of human support in your hands.",
+    "items": [
+      {
+        "title": "Start from your goal",
+        "body": "Use your training direction to decide what kind of support would be useful."
+      },
+      {
+        "title": "Stay accountable",
+        "body": "A real person can make it easier to show up and keep the session moving."
+      },
+      {
+        "title": "Train with support",
+        "body": "Work out with another person when practical help or shared momentum matters."
+      },
+      {
+        "title": "Continue in the app",
+        "body": "Use PacerGo to move from planning into training and progress review."
+      }
+    ]
+  },
+  "trust": {
+    "eyebrow": "Safety and trust",
+    "title_1": "Clear information for ",
+    "title_highlight": "real meetups.",
+    "intro": "Meeting someone to train should involve careful judgment. PacerGo provides signals and tools that support safer decisions.",
+    "items": [
+      {
+        "title": "Profile information",
+        "body": "Review profile details and supported training interests before choosing support."
+      },
+      {
+        "title": "Report and block",
+        "body": "Use reporting and blocking tools when a person or interaction creates concern."
+      },
+      {
+        "title": "Verification labels",
+        "body": "Verified credentials should appear only when the underlying review supports them."
+      },
+      {
+        "title": "Meet thoughtfully",
+        "body": "Use public-venue and session-sharing guidance for in-person workouts."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Start in the Web App",
+    "title_1": "Find the support that helps you ",
+    "title_highlight": "keep training.",
+    "sub": "AI creates direction, and real people help you follow through."
+  }
+}

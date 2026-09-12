@@ -1,0 +1,30 @@
+{
+  "tagline": "AI 訓練規劃加上真人陪練支援，讓訓練更容易開始，也更容易持續。",
+  "columns": {
+    "product": {
+      "heading": "產品",
+      "links": [
+        { "label": "免費開始", "href": "https://app.pacergo.app/sign-in?utm_source=website&utm_medium=footer&utm_campaign=mvp_launch" },
+        { "label": "運作方式", "href": "/#how-it-works" },
+        { "label": "AI 個人教練", "href": "/#ai-coach" },
+        { "label": "尋找陪練", "href": "/find" },
+        { "label": "訓練與進度", "href": "/#progress" },
+        { "label": "安全機制", "href": "/#safety" }
+      ]
+    },
+    "partners": {
+      "heading": "陪練",
+      "links": [
+        { "label": "成為陪練", "href": "/earn" }
+      ]
+    },
+    "support": {
+      "heading": "支援",
+      "links": [
+        { "label": "聯絡我們", "href": "/contact" }
+      ]
+    }
+  },
+  "rights": "© {{year}} PacerGo. 台灣製造。",
+  "motto": "AI 規劃 · 真人陪練 · 累積進度"
+}

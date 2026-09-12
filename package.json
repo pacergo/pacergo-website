@@ -1,0 +1,32 @@
+{
+  "name": "@pacergo/website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PacerGo public marketing site (Next.js 15, App Router, Tailwind v4).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "i18next": "^26.4.2",
+    "i18next-resources-to-backend": "^1.2.3",
+    "lucide-react": "^0.561.0",
+    "next": "15.5.25",
+    "next-i18n-router": "^5.5.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-i18next": "^17.0.13",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^22",
+    "@types/react": "~19.2.2",
+    "@types/react-dom": "~19.2.2",
+    "tailwindcss": "^4",
+    "typescript": "~6.0.3"
+  }
+}
