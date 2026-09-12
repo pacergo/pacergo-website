@@ -14,7 +14,9 @@ export function Steps() {
   const items = t("steps.items", { returnObjects: true }) as Step[];
 
   return (
-    <section id="how-it-works" className="scroll-mt-24 px-6 py-24 lg:py-32">
+    <section id="how-it-works" className="relative scroll-mt-24 overflow-clip px-6 py-24 lg:py-32">
+      <div className="grid-texture texture-fade absolute inset-0 -z-10" />
+      <div className="absolute -left-[12%] top-1/3 -z-10 size-[460px] rounded-full bg-brand/6 blur-[130px]" />
       <div className="mx-auto max-w-6xl">
         <div className="max-w-2xl">
           <SectionLabel>{t("steps.eyebrow")}</SectionLabel>

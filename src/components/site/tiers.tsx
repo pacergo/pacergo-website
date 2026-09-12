@@ -23,7 +23,8 @@ export function Tiers() {
   const findHref = getLocalizedPath("/find", locale);
 
   return (
-    <section id="workout-partner" className="scroll-mt-24 border-y border-ink/10 bg-white">
+    <section id="workout-partner" className="relative scroll-mt-24 overflow-clip border-y border-ink/10 bg-white">
+      <div className="absolute -left-[8%] -bottom-[10%] -z-10 size-[480px] rounded-full bg-brand/5 blur-[140px]" />
       <div className="mx-auto max-w-6xl px-6 py-24 lg:py-32">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div className="max-w-xl">

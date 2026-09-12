@@ -14,7 +14,9 @@ export function Safety() {
   const items = t("safety.items", { returnObjects: true }) as SafetyItem[];
 
   return (
-    <section id="safety" className="scroll-mt-24 bg-ink text-paper">
+    <section id="safety" className="relative scroll-mt-24 overflow-clip bg-ink text-paper">
+      <div className="grid-texture-inverse texture-fade absolute inset-0 -z-10" />
+      <div className="absolute -right-[10%] -top-[20%] -z-10 size-[560px] rounded-full bg-brand/20 blur-[150px]" />
       <div className="mx-auto max-w-6xl px-6 py-24 lg:py-32">
         <div className="grid gap-14 lg:grid-cols-[0.85fr_1.15fr] lg:gap-12">
           <div className="lg:sticky lg:top-28 lg:self-start">

@@ -17,7 +17,9 @@ export function TrainingProgress() {
   const items = t("progress.items", { returnObjects: true }) as ProgressItem[];
 
   return (
-    <section id="progress" className="scroll-mt-24 bg-paper px-6 py-24 lg:py-32">
+    <section id="progress" className="relative scroll-mt-24 overflow-clip bg-paper px-6 py-24 lg:py-32">
+      <div className="grid-texture texture-fade absolute inset-0 -z-10" />
+      <div className="absolute -right-[12%] -top-[10%] -z-10 size-[440px] rounded-full bg-brand/6 blur-[130px]" />
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-10 lg:grid-cols-[1fr_0.85fr] lg:items-end">
           <div className="max-w-2xl">

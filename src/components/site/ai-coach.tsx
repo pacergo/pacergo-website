@@ -18,7 +18,8 @@ export function AiCoach() {
   const visualPoints = t("ai_coach.visual_points", { returnObjects: true }) as string[];
 
   return (
-    <section id="ai-coach" className="scroll-mt-24 border-y border-ink/10 bg-white px-6 py-24 lg:py-32">
+    <section id="ai-coach" className="relative scroll-mt-24 overflow-clip border-y border-ink/10 bg-white px-6 py-24 lg:py-32">
+      <div className="absolute -right-[10%] -top-[15%] -z-10 size-[520px] rounded-full bg-brand/5 blur-[140px]" />
       <div className="mx-auto grid max-w-6xl gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
         <div>
           <SectionLabel>{t("ai_coach.eyebrow")}</SectionLabel>
