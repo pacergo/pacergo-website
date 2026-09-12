@@ -7,6 +7,9 @@ import { Reveal } from "./reveal";
 
 const ICONS = [Target, ListChecks, SlidersHorizontal];
 
+/** How many of the four pips are filled per configuration row. */
+const LEVELS = [3, 1, 2, 0];
+
 type CoachItem = {
   title: string;
   body: string;
@@ -67,15 +70,34 @@ export function AiCoach() {
               </span>
             </div>
 
-            <div className="mt-8 grid gap-3 sm:grid-cols-2">
-              {visualPoints.map((point) => (
-                <div key={point} className="rounded-xl border border-dashed border-ink/18 bg-paper p-4">
-                  <span className="block text-sm font-semibold text-ink">{point}</span>
+            <div className="mt-8 grid gap-3">
+              {visualPoints.map((point, index) => (
+                <div
+                  key={point}
+                  className="flex items-center justify-between gap-4 rounded-xl border border-ink/10 bg-paper px-4 py-3.5"
+                >
+                  <span className="text-sm font-semibold text-ink">{point}</span>
+                  <span className="flex gap-1" aria-hidden="true">
+                    {[0, 1, 2, 3].map((pip) => (
+                      <span
+                        key={pip}
+                        className={`size-1.5 rounded-full ${pip <= (LEVELS[index] ?? 1) ? "bg-brand" : "bg-ink/15"}`}
+                      />
+                    ))}
+                  </span>
                 </div>
               ))}
             </div>
 
-            <p className="mt-6 text-xs leading-relaxed text-ink/45">{t("ai_coach.visual_note")}</p>
+            {/* the menu those inputs generate: warm-up, main block, cool-down */}
+            <div className="mt-6 grid gap-2.5 rounded-xl border border-ink/10 bg-paper p-4" aria-hidden="true">
+              {[0.45, 1, 0.6].map((width, index) => (
+                <div key={index} className="flex items-center gap-3">
+                  <span className="size-1.5 shrink-0 rounded-full bg-brand" />
+                  <span className="h-2 rounded-full bg-ink/12" style={{ width: `${width * 100}%` }} />
+                </div>
+              ))}
+            </div>
           </div>
         </Reveal>
       </div>

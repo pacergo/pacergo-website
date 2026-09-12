@@ -72,8 +72,7 @@
     ],
     "visual_label": "Web App screen",
     "visual_title": "AI Training Menu",
-    "visual_points": ["Goal", "Level", "Frequency", "Training place"],
-    "visual_note": "Approved AI plan screenshots will be placed here when available."
+    "visual_points": ["Goal", "Level", "Frequency", "Training place"]
   },
   "tiers": {
     "eyebrow": "Workout Partner",
@@ -127,8 +126,7 @@
       }
     ],
     "visual_label": "Web App screen",
-    "visual_title": "Training progress",
-    "visual_note": "Approved training and progress screenshots will be placed here when available."
+    "visual_title": "Training progress"
   },
   "safety": {
     "eyebrow": "Trust & safety",

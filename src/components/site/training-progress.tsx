@@ -7,6 +7,9 @@ import { Reveal } from "./reveal";
 
 const ICONS = [ClipboardList, Dumbbell, CheckCircle2, LineChart];
 
+/** Relative weekly volume; the closing four weeks read as the current block. */
+const WEEKS = [38, 30, 52, 44, 36, 58, 48, 62, 54, 70, 64, 82];
+
 type ProgressItem = {
   title: string;
   body: string;
@@ -61,16 +64,27 @@ export function TrainingProgress() {
               </span>
             </div>
 
-            <div className="mt-8 space-y-4">
-              <div className="h-3 rounded-full border border-dashed border-ink/18 bg-paper" />
+            <div className="mt-8 space-y-5" aria-hidden="true">
+              {/* twelve weeks of training volume */}
+              <div className="flex h-24 items-end gap-1.5">
+                {WEEKS.map((height, index) => (
+                  <span
+                    key={index}
+                    className={`flex-1 rounded-full ${index >= WEEKS.length - 4 ? "bg-brand" : "bg-ink/12"}`}
+                    style={{ height: `${height}%` }}
+                  />
+                ))}
+              </div>
+
               <div className="grid grid-cols-3 gap-3">
                 {[0, 1, 2].map((index) => (
-                  <div key={index} className="h-20 rounded-xl border border-dashed border-ink/18 bg-paper" />
+                  <div key={index} className="rounded-xl border border-ink/10 bg-paper p-3">
+                    <span className="block h-2.5 w-8 rounded-full bg-brand/70" />
+                    <span className="mt-2.5 block h-1.5 w-full rounded-full bg-ink/12" />
+                  </div>
                 ))}
               </div>
             </div>
-
-            <p className="mt-6 text-xs leading-relaxed text-ink/45">{t("progress.visual_note")}</p>
           </Reveal>
         </div>
       </div>

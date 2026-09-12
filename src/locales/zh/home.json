@@ -72,8 +72,7 @@
     ],
     "visual_label": "Web App 畫面",
     "visual_title": "AI 訓練菜單",
-    "visual_points": ["目標", "程度", "頻率", "訓練場所"],
-    "visual_note": "核准後的 AI 訓練計畫截圖會放在這裡。"
+    "visual_points": ["目標", "程度", "頻率", "訓練場所"]
   },
   "tiers": {
     "eyebrow": "陪練",
@@ -127,8 +126,7 @@
       }
     ],
     "visual_label": "Web App 畫面",
-    "visual_title": "訓練進度",
-    "visual_note": "核准後的訓練與進度截圖會放在這裡。"
+    "visual_title": "訓練進度"
   },
   "safety": {
     "eyebrow": "信任與安全",
