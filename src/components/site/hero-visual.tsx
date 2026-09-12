@@ -23,7 +23,7 @@ export function HeroVisual() {
   return (
     <div
       aria-hidden="true"
-      className="animate-rise relative mx-auto w-full max-w-[520px] lg:justify-self-end"
+      className="animate-rise relative mx-auto w-full max-w-[440px] lg:justify-self-end"
       style={{ animationDelay: "260ms" }}
     >
       <div className="rounded-[2rem] border border-ink/10 bg-white p-4 shadow-[0_38px_90px_-48px_rgba(10,10,10,0.45)] sm:p-5">

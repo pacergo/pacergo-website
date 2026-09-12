@@ -20,14 +20,14 @@ export function Hero() {
       <div className="grid-texture absolute inset-0 -z-10" />
       <div className="absolute -top-40 right-[-10%] -z-10 size-[520px] rounded-full bg-brand/8 blur-[120px]" />
 
-      <div className="mx-auto grid max-w-6xl gap-12 px-6 pb-16 pt-14 sm:pt-18 lg:grid-cols-[1.02fr_0.98fr] lg:items-center lg:gap-10 lg:pb-24 lg:pt-24">
+      <div className="mx-auto grid max-w-6xl gap-12 px-6 pb-16 pt-14 sm:pt-18 lg:grid-cols-[1.12fr_0.88fr] lg:items-center lg:gap-10 lg:pb-24 lg:pt-24">
         <div>
           <div className="animate-rise" style={{ animationDelay: "40ms" }}>
             <SectionLabel>{t("hero.eyebrow")}</SectionLabel>
           </div>
 
           <h1
-            className="animate-rise mt-6 max-w-3xl font-display text-[clamp(2.7rem,7vw,5.4rem)] font-semibold leading-[0.95] text-ink"
+            className="animate-rise mt-6 max-w-3xl font-display text-[clamp(2.3rem,5.4vw,4.25rem)] font-semibold leading-[0.95] text-ink"
             style={{ animationDelay: "120ms" }}
           >
             {t("hero.headline")}
